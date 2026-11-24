@@ -1,0 +1,2 @@
+CREATE TABLE products(id integer GENERATED ALWAYS AS IDENTITY PRIMARY KEY,name text NOT NULL,price numeric(12,2) NOT NULL CHECK(price>=0));
+CREATE TABLE orders(id bigint GENERATED ALWAYS AS IDENTITY PRIMARY KEY,product_id integer NOT NULL REFERENCES products(id),quantity integer NOT NULL CHECK(quantity BETWEEN 1 AND 100),status text NOT NULL DEFAULT 'created' CHECK(status IN ('created','shipped','cancelled')));

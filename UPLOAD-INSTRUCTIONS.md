@@ -1,0 +1,2 @@
+# Upload to GitHub
+Create an empty repository named secure-cloud-migration-capstone. Extract this ZIP. Upload contents, not the ZIP itself. On Windows use Git Bash in the extracted folder: `git init`, `git add .`, `git commit -m "Add cloud capstone"`, `git branch -M main`, `git remote add origin https://github.com/YOUR-USERNAME/secure-cloud-migration-capstone.git`, `git push -u origin main`. This includes hidden .github and .gitignore. Alternatively use GitHub Desktop. Review the PDF for personal details before making the repo public.

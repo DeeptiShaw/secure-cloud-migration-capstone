@@ -1,0 +1,1 @@
+Acknowledge, assess scope, isolate affected instances or revoke credentials, preserve logs, remediate, restore and document lessons. Test point-in-time restore in isolation; measure RTO <=60 min and RPO <=15 min. Multi-AZ is not a backup.

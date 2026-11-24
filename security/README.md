@@ -1,0 +1,1 @@
+IAM policy is an example; replace the ARN with the exact application secret. Add narrowly scoped KMS decrypt if using a customer-managed key, separate SSM and log permissions, and EC2 trust policy. Never grant application access to the master secret. MFA and Identity Center are manual account controls.
